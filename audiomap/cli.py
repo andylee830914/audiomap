@@ -77,7 +77,7 @@ Usage examples:
     parser.add_argument(
         "--version",
         action="version",
-        version="AudioMap 1.0.0"
+        version="AudioMap 1.0.1"
     )
     
     args = parser.parse_args()

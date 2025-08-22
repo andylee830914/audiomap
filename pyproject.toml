@@ -1,6 +1,6 @@
 [project]
 name = "audiomap"
-version = "1.0.0"
+version = "1.0.1"
 description = "Cross-platform audio device mapping with UID support"
 readme = "README.md"
 license = "MIT"

@@ -1,6 +1,6 @@
 # AudioMap
 
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
+[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)](https://github.com/yourusername/audiomap)
 
 Cross-platform audio device mapping library for macOS, Windows, and Linux with comprehensive device UID support for both input and output audio devices.
