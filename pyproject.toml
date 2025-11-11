@@ -19,10 +19,10 @@ classifiers = [
     "Topic :: Multimedia :: Sound/Audio",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-dependencies = [
-    "build>=1.2.2.post1",
-    "twine>=6.1.0",
-]
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
 
 [project.optional-dependencies]
 windows = [
