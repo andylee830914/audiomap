@@ -24,31 +24,19 @@ Cross-platform audio device mapping library for macOS, Windows, and Linux with c
 ### Basic Installation
 
 ```bash
-pip install audiomap
+uv add audiomap
 ```
 
 ### Platform-specific Dependencies
 
 **Windows:**
 ```bash
-pip install audiomap[windows]
+uv add "audiomap[windows]"
 ```
 
 **Development:**
 ```bash
-pip install audiomap[dev]
-```
-
-### Platform-specific Dependencies
-
-**Windows users need additional packages:**
-```bash
-pip install audiomap[windows]
-```
-
-**Developer installation:**
-```bash
-pip install audiomap[dev]
+uv add --dev audiomap
 ```
 
 ## Quick Start
@@ -185,7 +173,7 @@ Find devices by name.
 - **UID Format**: CoreAudio device UID (e.g., "BuiltInSpeakers", "AppleUSBAudioEngine:...")
 
 ### Windows  
-- Requires installation: `pip install pycaw comtypes`
+- Requires installation: `uv add pycaw comtypes`
 - Supports WASAPI devices
 - **UID Format**: Windows device ID (e.g., "{0.0.0.00000000}.{12345678-...}")
 
@@ -259,7 +247,7 @@ Found 4 output devices:
 ```bash
 git clone https://github.com/yourusername/audiomap.git
 cd audiomap
-pip install -e .[dev]
+uv sync --dev
 ```
 
 ### Run Tests
@@ -271,7 +259,7 @@ pytest tests/
 ### Build Package
 
 ```bash
-python -m build
+uv build
 ```
 
 ## License
